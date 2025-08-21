@@ -1,2 +1,4 @@
-console.log("Prajwala Reddy");
-console.log("20/08/2025");
+let name="Prajwala Reddy";
+let date=new Date().toLocaleDateString();
+
+console.log(`My name is ${name}. Today's date is ${date}`);
